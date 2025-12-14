@@ -2,7 +2,7 @@ const axios = require("axios");
 const jwt = require("jsonwebtoken");
 
 const BASE_URL =
-  "https://api.render.com/deploy/srv-d4va2pje5dus73aa9r60?key=dmG307GAx_Q";
+  "https://localhost:5000";
 const JWT_SECRET = "your-super-secret-key-change-in-production-12345";
 
 async function testAdminAccess() {
