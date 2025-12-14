@@ -1,9 +1,9 @@
 const axios = require("axios");
 const jwt = require("jsonwebtoken");
 
-const BASE_URL =
-  "https://localhost:5000";
-const JWT_SECRET = "your-super-secret-key-change-in-production-12345";
+
+const BASE_URL = process.env.RENDER_DEPLOY_HOOK;
+const JWT_SECRET = process.env.JWT_SECRET;
 
 async function testAdminAccess() {
   try {
