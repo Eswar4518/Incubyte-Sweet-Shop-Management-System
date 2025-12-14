@@ -318,6 +318,15 @@ This is a TDD Kata project. To extend it:
 3. Refactor for clarity
 4. Update documentation
 
+#Sample images
+<img width="1918" height="941" alt="image" src="https://github.com/user-attachments/assets/61595207-f6d7-4c36-b766-4c8e725faa0e" />
+<img width="1889" height="936" alt="image" src="https://github.com/user-attachments/assets/340be1a2-1dea-4781-bb8b-7d4b17084a18" />
+<img width="1919" height="940" alt="image" src="https://github.com/user-attachments/assets/538ad7bb-6faa-46de-bffc-5d733ad56226" />
+<img width="1919" height="941" alt="image" src="https://github.com/user-attachments/assets/f4ebb64a-6939-4236-a45c-f1b385a9d48c" />
+<img width="1902" height="940" alt="image" src="https://github.com/user-attachments/assets/69d33880-1384-4be4-bc92-8201c6075f46" />
+<img width="1919" height="936" alt="image" src="https://github.com/user-attachments/assets/e3c27b1d-b683-4072-8d0d-7834311b38bf" />
+<img width="1918" height="937" alt="image" src="https://github.com/user-attachments/assets/f460816b-8092-4393-b877-c7f708eaf928" />
+
 
 **Last Updated**: December 2025
 **Version**: 1.0.0
