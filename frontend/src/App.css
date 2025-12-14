@@ -1,0 +1,178 @@
+/* Root Tailwind Imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sweet Shop Background Theme */
+body {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjpVWSa3wfUnwM155bvp2UILHSaMCEhHeprQ&s') center/cover no-repeat !important;
+  background-attachment: fixed !important;
+  min-height: 100vh;
+}
+
+html {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjpVWSa3wfUnwM155bvp2UILHSaMCEhHeprQ&s') center/cover no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+* {
+  background-image: none !important;
+}
+
+body * {
+  background-image: none !important;
+}
+
+
+
+/* Custom Utility Classes */
+.btn-primary {
+  @apply px-4 py-2 bg-gray-800 text-white rounded-lg font-semibold hover:bg-gray-900 transition-colors disabled:bg-gray-400;
+}
+
+.btn-secondary {
+  @apply px-4 py-2 bg-gray-200 text-gray-800 rounded-lg font-semibold hover:bg-gray-300 transition-colors;
+}
+
+.btn-danger {
+  @apply px-4 py-2 bg-red-800 text-black rounded-lg font-semibold hover:bg-red-900 transition-colors;
+}
+
+.btn-success {
+  @apply px-4 py-2 bg-green-800 text-black rounded-lg font-semibold hover:bg-green-900 transition-colors;
+}
+
+.card {
+  @apply bg-transparent rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow;
+}
+
+.form-input {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500;
+}
+
+.form-label {
+  @apply block text-gray-700 font-semibold mb-2;
+}
+
+.error-message {
+  @apply text-red-600 text-sm mt-1;
+}
+
+.success-message {
+  @apply bg-green-100 text-green-700 p-4 rounded-lg mb-4;
+}
+
+.error-alert {
+  @apply bg-red-100 text-red-700 p-4 rounded-lg mb-4;
+}
+
+/* Custom animations */
+@keyframes bounce-in {
+  0% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-bounce-in {
+  animation: bounce-in 0.6s ease-out;
+}
+
+/* Gradient text */
+.gradient-text {
+  @apply bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent;
+}
+
+/* Sweet card hover effects */
+.sweet-card {
+  @apply transform transition-all duration-300 hover:scale-105 hover:shadow-xl;
+}
+
+/* Form input focus effects */
+.form-input-enhanced {
+  @apply w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all duration-200 bg-white shadow-sm;
+}
+
+/* Button styles */
+.btn-gradient {
+  @apply bg-gradient-to-r from-purple-800 to-pink-800 hover:from-purple-900 hover:to-pink-900 text-black font-bold py-3 px-6 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+}
+
+.btn-outline {
+  @apply border-2 border-purple-500 text-purple-600 hover:bg-purple-500 hover:text-white font-semibold py-2 px-4 rounded-lg transition-all duration-200;
+}
+
+/* Dark theme styles */
+.dark body {
+  background: url('/images/Gemini_Generated_Image_wt5wlhwt5wlhwt5w.png') center/cover no-repeat !important;
+  background-attachment: fixed !important;
+  color: white;
+}
+
+
+
+.dark .form-input {
+  @apply bg-gray-700 text-white border-gray-600;
+}
+
+.dark .form-input-enhanced {
+  @apply bg-gray-700 text-white border-gray-600;
+}
+
+.dark {
+  color: white;
+}
+
+.dark .text-black {
+  @apply text-white;
+}
+
+.dark .text-gray-700 {
+  @apply text-gray-300;
+}
+
+.dark .text-gray-600 {
+  @apply text-gray-300;
+}
+
+.dark .text-gray-800 {
+  @apply text-gray-200;
+}
+
+.card {
+  @apply border-2 border-gray-300;
+}
+
+.dark .gradient-text {
+  @apply bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent;
+}
+
+.dark .text-amber-800 {
+  @apply text-amber-300;
+}
+
+.dark .error-alert {
+  @apply bg-red-800 text-red-100 border border-red-600;
+}
+
+.dark .bg-red-100 {
+  @apply bg-red-800;
+}
+
+.dark .text-red-700 {
+  @apply text-red-100;
+}
+
+.dark .border-red-400 {
+  @apply border-red-600;
+}
